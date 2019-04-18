@@ -10,5 +10,6 @@ def count_str(samples):
         for sample in samples:
             if len(sample) >= 2 and (sample[0] == sample[-1]):
                 count += 1
-                return count
+    return count
+
 count_str(samples)
